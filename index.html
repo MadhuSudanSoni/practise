@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title>Test</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body ng-controller="myController as ctrl">
+{{ctrl.name}}
+<input ng-model="ctrl.check"/>{{ctrl.check}}
+</body>
+</html>
