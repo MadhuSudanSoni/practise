@@ -4,6 +4,6 @@
         .controller('myController', function($scope) {
             var ctrl = this;
             ctrl.name = "madhu";
-            console.log($scope);
+            console.log($scope); 
         });
 })();
